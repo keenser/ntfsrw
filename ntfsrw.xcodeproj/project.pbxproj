@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1D37D61AEA431600A62C0F /* MountVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D37D51AEA431600A62C0F /* MountVolume.m */; };
 		7E1F30EE1AE93151000EDBD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1F30ED1AE93151000EDBD0 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7E1D37D41AEA431600A62C0F /* MountVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountVolume.h; sourceTree = "<group>"; };
+		7E1D37D51AEA431600A62C0F /* MountVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountVolume.m; sourceTree = "<group>"; };
 		7E1F30EA1AE93151000EDBD0 /* ntfsrw */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ntfsrw; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1F30ED1AE93151000EDBD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7E1F30ED1AE93151000EDBD0 /* main.m */,
+				7E1D37D41AEA431600A62C0F /* MountVolume.h */,
+				7E1D37D51AEA431600A62C0F /* MountVolume.m */,
 			);
 			path = ntfsrw;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1D37D61AEA431600A62C0F /* MountVolume.m in Sources */,
 				7E1F30EE1AE93151000EDBD0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +241,7 @@
 				7E1F30F31AE93151000EDBD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

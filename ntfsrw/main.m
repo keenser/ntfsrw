@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MountVolume.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        MountVolume *source = [[MountVolume alloc] init];
+        [source start];
+        [[NSRunLoop currentRunLoop] run];
     }
     return 0;
 }
